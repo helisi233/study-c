@@ -110,44 +110,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named study_c
+# Target rules for targets named study-c
 
 # Build rule for target.
-study_c: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 study_c
-.PHONY : study_c
+study-c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 study-c
+.PHONY : study-c
 
 # fast build rule for target.
-study_c/fast:
-	$(MAKE) -f CMakeFiles\study_c.dir\build.make CMakeFiles/study_c.dir/build
-.PHONY : study_c/fast
+study-c/fast:
+	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/build
+.PHONY : study-c/fast
 
-main.obj: main.c.obj
+chapter1/09.guess_number.obj: chapter1/09.guess_number.c.obj
 
-.PHONY : main.obj
+.PHONY : chapter1/09.guess_number.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\study_c.dir\build.make CMakeFiles/study_c.dir/main.c.obj
-.PHONY : main.c.obj
+chapter1/09.guess_number.c.obj:
+	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter1/09.guess_number.c.obj
+.PHONY : chapter1/09.guess_number.c.obj
 
-main.i: main.c.i
+chapter1/09.guess_number.i: chapter1/09.guess_number.c.i
 
-.PHONY : main.i
+.PHONY : chapter1/09.guess_number.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\study_c.dir\build.make CMakeFiles/study_c.dir/main.c.i
-.PHONY : main.c.i
+chapter1/09.guess_number.c.i:
+	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter1/09.guess_number.c.i
+.PHONY : chapter1/09.guess_number.c.i
 
-main.s: main.c.s
+chapter1/09.guess_number.s: chapter1/09.guess_number.c.s
 
-.PHONY : main.s
+.PHONY : chapter1/09.guess_number.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\study_c.dir\build.make CMakeFiles/study_c.dir/main.c.s
-.PHONY : main.c.s
+chapter1/09.guess_number.c.s:
+	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter1/09.guess_number.c.s
+.PHONY : chapter1/09.guess_number.c.s
 
 # Help Target
 help:
@@ -155,12 +155,12 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... study-c
 	@echo ... edit_cache
-	@echo ... study_c
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... chapter1/09.guess_number.obj
+	@echo ... chapter1/09.guess_number.i
+	@echo ... chapter1/09.guess_number.s
 .PHONY : help
 
 

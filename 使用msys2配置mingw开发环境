@@ -1,0 +1,5 @@
+第一次运行
+pacman -Syu
+
+安装mingw-w64 GCC工具
+pacman -S --needed base-devel mingw-w64-x86_64-toolchain

@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="study_c"/>
+		<Option title="study-c"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
@@ -17,49 +17,55 @@
 					<DistClean command="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/study-c/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="study-c">
+				<Option output="D:/study-c/cmake-build-debug-mingw/study-c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/study-c/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../include/c++/12.1.0"/>
+					<Add directory="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../include/c++/12.1.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../include/c++/12.1.0/backward"/>
+					<Add directory="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/include"/>
+					<Add directory="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../include"/>
+					<Add directory="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/include-fixed"/>
+					<Add directory="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/study-c/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 study-c"/>
+					<CompileFile command="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/study-c/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/study-c/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/study-c/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="study-c/fast">
+				<Option output="D:/study-c/cmake-build-debug-mingw/study-c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/study-c/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../include/c++/12.1.0"/>
+					<Add directory="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../include/c++/12.1.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../include/c++/12.1.0/backward"/>
+					<Add directory="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/include"/>
+					<Add directory="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../include"/>
+					<Add directory="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/include-fixed"/>
+					<Add directory="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/study-c/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 study-c/fast"/>
+					<CompileFile command="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/study-c/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/study-c/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/study-c/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="D:/study-c/cmake-build-debug-mingw"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/study-c/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/study-c/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/study-c/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/study-c/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="study_c">
-				<Option output="D:/study-c/cmake-build-debug-mingw/study_c.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/study-c/cmake-build-debug-mingw"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/include"/>
-					<Add directory="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../include"/>
-					<Add directory="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/include-fixed"/>
-					<Add directory="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/study-c/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 study_c"/>
-					<CompileFile command="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/study-c/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/study-c/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/study-c/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="study_c/fast">
-				<Option output="D:/study-c/cmake-build-debug-mingw/study_c.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/study-c/cmake-build-debug-mingw"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/include"/>
-					<Add directory="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../include"/>
-					<Add directory="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/include-fixed"/>
-					<Add directory="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/study-c/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 study_c/fast"/>
 					<CompileFile command="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/study-c/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/study-c/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/soft/ide/anzhuangbao/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/study-c/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
@@ -76,11 +82,8 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/study-c/chapter1/01.data_types.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="D:/study-c/main.c">
-			<Option target="study_c"/>
+		<Unit filename="D:/study-c/chapter1/09.guess_number.c">
+			<Option target="study-c"/>
 		</Unit>
 		<Unit filename="D:/study-c/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

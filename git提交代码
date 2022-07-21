@@ -11,3 +11,14 @@ git push -u origin "main"
 git remote add origin https://github.com/helisi233/study-c.git
 git branch -M "main"
 git push -u origin "main"
+
+第一次提交代码到master分支可能会出现的问题
+    branch master set up to track remote branch master from origin
+    everything up-to-date.
+git branch slave    // 创建一个slave分支 slave十分之的名字 可以随便命名
+git add .           // 添加到暂存区
+git commit -m "slave first commit"  // 提交到版本库 也就是当前分支（slave）
+git push origin slave   // 提交到远程仓库
+git checkout master     // 然后切换到master分支
+git merge slave         // 把slave分支合并到master上
+git push -u origin master   // 最后提交到远程仓库
