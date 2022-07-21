@@ -1,0 +1,13 @@
+通过命令行创建一个仓库（在本地先创建工程）
+echo "# study-c" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M "main"
+git remote add origin https://github.com/helisi233/study-c.git
+git push -u origin "main"
+
+将代码推送到一个空白仓库
+git remote add origin https://github.com/helisi233/study-c.git
+git branch -M "main"
+git push -u origin "main"

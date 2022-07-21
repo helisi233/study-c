@@ -1,0 +1,3 @@
+D:/study-c/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+D:/study-c/cmake-build-debug-mingw/CMakeFiles/study_c.dir
+D:/study-c/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
