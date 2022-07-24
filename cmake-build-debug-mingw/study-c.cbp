@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/study-c/chapter1/09.guess_number.c">
+		<Unit filename="D:/study-c/chapter2/06.hanoi.c">
 			<Option target="study-c"/>
 		</Unit>
 		<Unit filename="D:/study-c/CMakeLists.txt">

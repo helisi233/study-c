@@ -4,4 +4,4 @@ project(study-c)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(study-c chapter1/09.guess_number.c)
+add_executable(study-c chapter2/06.hanoi.c)

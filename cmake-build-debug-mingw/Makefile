@@ -122,32 +122,32 @@ study-c/fast:
 	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/build
 .PHONY : study-c/fast
 
-chapter1/09.guess_number.obj: chapter1/09.guess_number.c.obj
+chapter2/06.hanoi.obj: chapter2/06.hanoi.c.obj
 
-.PHONY : chapter1/09.guess_number.obj
+.PHONY : chapter2/06.hanoi.obj
 
 # target to build an object file
-chapter1/09.guess_number.c.obj:
-	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter1/09.guess_number.c.obj
-.PHONY : chapter1/09.guess_number.c.obj
+chapter2/06.hanoi.c.obj:
+	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter2/06.hanoi.c.obj
+.PHONY : chapter2/06.hanoi.c.obj
 
-chapter1/09.guess_number.i: chapter1/09.guess_number.c.i
+chapter2/06.hanoi.i: chapter2/06.hanoi.c.i
 
-.PHONY : chapter1/09.guess_number.i
+.PHONY : chapter2/06.hanoi.i
 
 # target to preprocess a source file
-chapter1/09.guess_number.c.i:
-	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter1/09.guess_number.c.i
-.PHONY : chapter1/09.guess_number.c.i
+chapter2/06.hanoi.c.i:
+	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter2/06.hanoi.c.i
+.PHONY : chapter2/06.hanoi.c.i
 
-chapter1/09.guess_number.s: chapter1/09.guess_number.c.s
+chapter2/06.hanoi.s: chapter2/06.hanoi.c.s
 
-.PHONY : chapter1/09.guess_number.s
+.PHONY : chapter2/06.hanoi.s
 
 # target to generate assembly for a file
-chapter1/09.guess_number.c.s:
-	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter1/09.guess_number.c.s
-.PHONY : chapter1/09.guess_number.c.s
+chapter2/06.hanoi.c.s:
+	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter2/06.hanoi.c.s
+.PHONY : chapter2/06.hanoi.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... study-c
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... chapter1/09.guess_number.obj
-	@echo ... chapter1/09.guess_number.i
-	@echo ... chapter1/09.guess_number.s
+	@echo ... chapter2/06.hanoi.obj
+	@echo ... chapter2/06.hanoi.i
+	@echo ... chapter2/06.hanoi.s
 .PHONY : help
 
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/study-c.dir/chapter1/09.guess_number.c.obj"
+  "CMakeFiles/study-c.dir/chapter2/06.hanoi.c.obj"
   "study-c.pdb"
   "study-c.exe"
   "study-c.exe.manifest"
