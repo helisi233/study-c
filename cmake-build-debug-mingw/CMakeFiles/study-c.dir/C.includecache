@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/study-c/chapter2/06.hanoi.c
+D:/study-c/chapter4/06.quick_sort.c
 stdio.h
 -
+stdlib.h
+-
+time.h
+-
+include/Print_Util.h
+D:/study-c/chapter4/include/Print_Util.h
+
+D:/study-c/chapter4/include/Print_Util.h
 

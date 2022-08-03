@@ -122,32 +122,32 @@ study-c/fast:
 	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/build
 .PHONY : study-c/fast
 
-chapter2/06.hanoi.obj: chapter2/06.hanoi.c.obj
+chapter4/06.quick_sort.obj: chapter4/06.quick_sort.c.obj
 
-.PHONY : chapter2/06.hanoi.obj
+.PHONY : chapter4/06.quick_sort.obj
 
 # target to build an object file
-chapter2/06.hanoi.c.obj:
-	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter2/06.hanoi.c.obj
-.PHONY : chapter2/06.hanoi.c.obj
+chapter4/06.quick_sort.c.obj:
+	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter4/06.quick_sort.c.obj
+.PHONY : chapter4/06.quick_sort.c.obj
 
-chapter2/06.hanoi.i: chapter2/06.hanoi.c.i
+chapter4/06.quick_sort.i: chapter4/06.quick_sort.c.i
 
-.PHONY : chapter2/06.hanoi.i
+.PHONY : chapter4/06.quick_sort.i
 
 # target to preprocess a source file
-chapter2/06.hanoi.c.i:
-	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter2/06.hanoi.c.i
-.PHONY : chapter2/06.hanoi.c.i
+chapter4/06.quick_sort.c.i:
+	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter4/06.quick_sort.c.i
+.PHONY : chapter4/06.quick_sort.c.i
 
-chapter2/06.hanoi.s: chapter2/06.hanoi.c.s
+chapter4/06.quick_sort.s: chapter4/06.quick_sort.c.s
 
-.PHONY : chapter2/06.hanoi.s
+.PHONY : chapter4/06.quick_sort.s
 
 # target to generate assembly for a file
-chapter2/06.hanoi.c.s:
-	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter2/06.hanoi.c.s
-.PHONY : chapter2/06.hanoi.c.s
+chapter4/06.quick_sort.c.s:
+	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter4/06.quick_sort.c.s
+.PHONY : chapter4/06.quick_sort.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... study-c
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... chapter2/06.hanoi.obj
-	@echo ... chapter2/06.hanoi.i
-	@echo ... chapter2/06.hanoi.s
+	@echo ... chapter4/06.quick_sort.obj
+	@echo ... chapter4/06.quick_sort.i
+	@echo ... chapter4/06.quick_sort.s
 .PHONY : help
 
 

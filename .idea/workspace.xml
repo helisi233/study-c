@@ -12,13 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="069f5924-b7d3-42ad-a2e3-5dd5cfa0aebc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter2/01.function_basic.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/02.proto_type.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/03.variable_types_and_scope.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/04.varargs.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/05.recursion.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/06.hanoi.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compilerexplorer.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compilerexplorer.settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter4/01.array_basic.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter4/02.string.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter4/03.array_parameter.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter4/04.2d_array.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter4/05.shuffle_array.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter4/06.quick_sort.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter4/include/Print_Util.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/C.includecache" afterDir="false" />
@@ -32,6 +33,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/study-c.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/study-c.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/study-c.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/study-c.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git提交代码" beforeDir="false" afterPath="$PROJECT_DIR$/git提交代码" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug-mingw/" />
@@ -47,29 +49,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-MinGW" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter2/05.recursion.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter2/06.hanoi.c">
+        <entry file="file://$PROJECT_DIR$/chapter4/06.quick_sort.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+            <state relative-caret-position="51">
+              <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+              <folding>
+                <element signature="e#40#58#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/git提交代码" />
         <option value="$PROJECT_DIR$/使用msys2配置mingw开发环境" />
         <option value="$PROJECT_DIR$/chapter1/01.data_types.c" />
         <option value="$PROJECT_DIR$/chapter1/01.data_type.cpp" />
@@ -101,14 +87,29 @@
         <option value="$PROJECT_DIR$/chapter2/03.variable_types_and_scope.c" />
         <option value="$PROJECT_DIR$/chapter2/04.varargs.c" />
         <option value="$PROJECT_DIR$/chapter2/05.recursion.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/chapter2/06.hanoi.c" />
+        <option value="$PROJECT_DIR$/chapter3/01.file_include.c" />
+        <option value="$PROJECT_DIR$/chapter3/include/factorial.h" />
+        <option value="$PROJECT_DIR$/chapter3/02.my_include_file.c" />
+        <option value="$PROJECT_DIR$/chapter3/src/factorial.c" />
+        <option value="$PROJECT_DIR$/chapter3/03.macro_function.c" />
+        <option value="$PROJECT_DIR$/chapter3/04.conditional_macro.c" />
+        <option value="$PROJECT_DIR$/chapter3/05.printlnf.c" />
+        <option value="$PROJECT_DIR$/chapter4/01.array_basic.c" />
+        <option value="$PROJECT_DIR$/chapter4/include/Print_Util.h" />
+        <option value="$PROJECT_DIR$/chapter4/02.string.c" />
+        <option value="$PROJECT_DIR$/chapter4/03.array_parameter.c" />
+        <option value="$PROJECT_DIR$/chapter4/04.2d_array.c" />
+        <option value="$PROJECT_DIR$/chapter4/06.shuffle_array.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/git提交代码" />
+        <option value="$PROJECT_DIR$/chapter4/06.quick_sort.c" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="166" />
-    <option name="y" value="16" />
+    <option name="x" value="245" />
+    <option name="y" value="41" />
     <option name="width" value="1465" />
     <option name="height" value="980" />
   </component>
@@ -118,6 +119,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,13 +130,12 @@
             <path>
               <item name="study-c" type="b2602c69:ProjectViewProjectNode" />
               <item name="study-c" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,7 +145,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="compilerexplorer" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -186,28 +187,41 @@
       <workItem from="1658365223036" duration="16609000" />
       <workItem from="1658542792913" duration="6939000" />
       <workItem from="1658621554309" duration="4933000" />
+      <workItem from="1658691332551" duration="9637000" />
+      <workItem from="1659344418909" duration="3694000" />
+      <workItem from="1659457541611" duration="383000" />
+      <workItem from="1659492606001" duration="9800000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28481000" />
+    <option name="totallyTimeSpent" value="51995000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="133" y="13" width="1172" height="784" extended-state="0" />
+    <frame x="196" y="33" width="1172" height="784" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22710952" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23518851" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297546" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5092025" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34815952" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.3297546" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33435583" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32668713" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3338438" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3297546" />
@@ -222,13 +236,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/git提交代码">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.c" />
     <entry file="file://$PROJECT_DIR$/使用msys2配置mingw开发环境">
       <provider selected="true" editor-type-id="text-editor">
@@ -318,13 +325,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../soft/ide/anzhuangbao/msys64/mingw64/include/stdio.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="702" column="37" selection-start-line="702" selection-start-column="2" selection-end-line="702" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter2/02.proto_type.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
@@ -351,15 +351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter2/05.recursion.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="1924">
           <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -367,6 +360,165 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3.c" />
+    <entry file="file://$PROJECT_DIR$/../soft/ide/anzhuangbao/msys64/mingw64/include/stdio.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="374" column="1" selection-start-line="366" selection-end-line="374" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/01.file_include.i" />
+    <entry file="file://$PROJECT_DIR$/chapter3/src/factorial.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/include/factorial.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="4" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/01.file_include.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/02.my_include_file.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <element signature="e#41#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/03.macro_function.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/04.conditional_macro.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding>
+            <element signature="e#357#398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/05.printlnf.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding>
+            <element signature="e#41#59#0" expanded="true" />
+            <element signature="e#491#554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/include/Print_Util.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#130#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/01.array_basic.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+          <folding>
+            <element signature="e#40#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../soft/ide/anzhuangbao/msys64/mingw64/include/corecrt.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="97" column="23" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/02.string.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="e#40#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/03.array_parameter.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+          <folding>
+            <element signature="e#40#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/04.2d_array.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding>
+            <element signature="e#40#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/05.shuffle_array.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+          <folding>
+            <element signature="e#40#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git提交代码">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/06.quick_sort.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+          <folding>
+            <element signature="e#40#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
