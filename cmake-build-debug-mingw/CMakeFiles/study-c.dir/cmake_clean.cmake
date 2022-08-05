@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/study-c.dir/chapter4/06.quick_sort.c.obj"
+  "CMakeFiles/study-c.dir/chapter5/05.lvalue_rvalue.c.obj"
   "study-c.pdb"
   "study-c.exe"
   "study-c.exe.manifest"

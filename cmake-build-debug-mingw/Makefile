@@ -122,32 +122,32 @@ study-c/fast:
 	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/build
 .PHONY : study-c/fast
 
-chapter4/06.quick_sort.obj: chapter4/06.quick_sort.c.obj
+chapter5/05.lvalue_rvalue.obj: chapter5/05.lvalue_rvalue.c.obj
 
-.PHONY : chapter4/06.quick_sort.obj
+.PHONY : chapter5/05.lvalue_rvalue.obj
 
 # target to build an object file
-chapter4/06.quick_sort.c.obj:
-	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter4/06.quick_sort.c.obj
-.PHONY : chapter4/06.quick_sort.c.obj
+chapter5/05.lvalue_rvalue.c.obj:
+	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter5/05.lvalue_rvalue.c.obj
+.PHONY : chapter5/05.lvalue_rvalue.c.obj
 
-chapter4/06.quick_sort.i: chapter4/06.quick_sort.c.i
+chapter5/05.lvalue_rvalue.i: chapter5/05.lvalue_rvalue.c.i
 
-.PHONY : chapter4/06.quick_sort.i
+.PHONY : chapter5/05.lvalue_rvalue.i
 
 # target to preprocess a source file
-chapter4/06.quick_sort.c.i:
-	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter4/06.quick_sort.c.i
-.PHONY : chapter4/06.quick_sort.c.i
+chapter5/05.lvalue_rvalue.c.i:
+	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter5/05.lvalue_rvalue.c.i
+.PHONY : chapter5/05.lvalue_rvalue.c.i
 
-chapter4/06.quick_sort.s: chapter4/06.quick_sort.c.s
+chapter5/05.lvalue_rvalue.s: chapter5/05.lvalue_rvalue.c.s
 
-.PHONY : chapter4/06.quick_sort.s
+.PHONY : chapter5/05.lvalue_rvalue.s
 
 # target to generate assembly for a file
-chapter4/06.quick_sort.c.s:
-	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter4/06.quick_sort.c.s
-.PHONY : chapter4/06.quick_sort.c.s
+chapter5/05.lvalue_rvalue.c.s:
+	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter5/05.lvalue_rvalue.c.s
+.PHONY : chapter5/05.lvalue_rvalue.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... study-c
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... chapter4/06.quick_sort.obj
-	@echo ... chapter4/06.quick_sort.i
-	@echo ... chapter4/06.quick_sort.s
+	@echo ... chapter5/05.lvalue_rvalue.obj
+	@echo ... chapter5/05.lvalue_rvalue.i
+	@echo ... chapter5/05.lvalue_rvalue.s
 .PHONY : help
 
 

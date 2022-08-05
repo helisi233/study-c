@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/study-c/chapter4/06.quick_sort.c
+D:/study-c/chapter5/04.pointer_operations.c
 stdio.h
 -
-stdlib.h
--
-time.h
--
-include/Print_Util.h
-D:/study-c/chapter4/include/Print_Util.h
+include/Print_Utils.h
+D:/study-c/chapter5/include/Print_Utils.h
 
-D:/study-c/chapter4/include/Print_Util.h
+D:/study-c/chapter5/include/Print_Utils.h
 

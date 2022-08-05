@@ -82,10 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/study-c/chapter4/06.quick_sort.c">
+		<Unit filename="D:/study-c/chapter5/05.lvalue_rvalue.c">
 			<Option target="study-c"/>
 		</Unit>
-		<Unit filename="D:/study-c/chapter4/include/Print_Util.h">
+		<Unit filename="D:/study-c/chapter5/include/Print_Utils.h">
 			<Option target="study-c"/>
 		</Unit>
 		<Unit filename="D:/study-c/CMakeLists.txt">

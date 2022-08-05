@@ -12,14 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="069f5924-b7d3-42ad-a2e3-5dd5cfa0aebc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter4/01.array_basic.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter4/02.string.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter4/03.array_parameter.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter4/04.2d_array.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter4/05.shuffle_array.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter4/06.quick_sort.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter4/include/Print_Util.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/01.pointer_basic.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/02.readonly_pointer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/03.pointer_values.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/04.pointer_operations.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/include/Print_Utils.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/C.includecache" afterDir="false" />
@@ -33,7 +30,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/study-c.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/study-c.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/study-c.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/study-c.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git提交代码" beforeDir="false" afterPath="$PROJECT_DIR$/git提交代码" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug-mingw/" />
@@ -50,13 +46,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter4/06.quick_sort.c">
+        <entry file="file://$PROJECT_DIR$/chapter5/04.pointer_operations.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+            <state relative-caret-position="368">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding>
                 <element signature="e#40#58#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -101,15 +106,20 @@
         <option value="$PROJECT_DIR$/chapter4/03.array_parameter.c" />
         <option value="$PROJECT_DIR$/chapter4/04.2d_array.c" />
         <option value="$PROJECT_DIR$/chapter4/06.shuffle_array.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/git提交代码" />
         <option value="$PROJECT_DIR$/chapter4/06.quick_sort.c" />
+        <option value="$PROJECT_DIR$/chapter5/include/Print_Utils.h" />
+        <option value="$PROJECT_DIR$/chapter5/01.pointer_basic.c" />
+        <option value="$PROJECT_DIR$/chapter5/02.readonly_pointer.c" />
+        <option value="$PROJECT_DIR$/chapter5/03.pointer_values.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/chapter5/04.pointer_operations.c" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="245" />
-    <option name="y" value="41" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="321" />
+    <option name="y" value="22" />
     <option name="width" value="1465" />
     <option name="height" value="980" />
   </component>
@@ -130,7 +140,7 @@
             <path>
               <item name="study-c" type="b2602c69:ProjectViewProjectNode" />
               <item name="study-c" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter4" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -191,11 +201,14 @@
       <workItem from="1659344418909" duration="3694000" />
       <workItem from="1659457541611" duration="383000" />
       <workItem from="1659492606001" duration="9800000" />
+      <workItem from="1659510312889" duration="16000" />
+      <workItem from="1659599439900" duration="4372000" />
+      <workItem from="1659666533962" duration="3779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51995000" />
+    <option name="totallyTimeSpent" value="60162000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -207,14 +220,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="196" y="33" width="1172" height="784" extended-state="0" />
+    <frame x="257" y="18" width="1172" height="784" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.23518851" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297546" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34815952" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34815952" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -431,16 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter4/include/Print_Util.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#130#238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/01.array_basic.c">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -498,13 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/git提交代码">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
@@ -516,6 +513,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+          <folding>
+            <element signature="e#40#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/include/Print_Util.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-454">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#130#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter5/01.pointer_basic.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#40#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter5/02.readonly_pointer.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#40#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter5/03.pointer_values.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+          <folding>
+            <element signature="e#40#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter5/include/Print_Utils.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter5/04.pointer_operations.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
             <element signature="e#40#58#0" expanded="true" />
           </folding>
