@@ -82,10 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/study-c/chapter5/05.lvalue_rvalue.c">
+		<Unit filename="D:/study-c/chapter9/Code09.copy_file_3.c">
 			<Option target="study-c"/>
 		</Unit>
-		<Unit filename="D:/study-c/chapter5/include/Print_Utils.h">
+		<Unit filename="D:/study-c/chapter9/include/io_utils.h">
+			<Option target="study-c"/>
+		</Unit>
+		<Unit filename="D:/study-c/chapter9/include/time_utils.h">
 			<Option target="study-c"/>
 		</Unit>
 		<Unit filename="D:/study-c/CMakeLists.txt">

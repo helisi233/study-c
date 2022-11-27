@@ -11,9 +11,13 @@
 
 #define PRINT_INT(value) PRINTLNF(#value": %d", value)
 
+#define PRINT_LONG(value) PRINTLNF(#value": %ld", value)
+#define PRINT_LLONG(value) PRINTLNF(#value": %lld", value)
+
 #define PRINT_BOOL(value) PRINTLNF(#value": %d", value)
 
 #define PRINT_FLOAT(value) PRINTLNF(#value": %f", value)
+#define PRINT_DOUBLE(value) PRINTLNF(#value": %lf", value)
 
 #define PRINT_CHAR(value) PRINTLNF(#value": %c", value)
 

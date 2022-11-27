@@ -1,0 +1,3 @@
+数据在计算机中以流的形式从一端到另一端
+对应linux中管道即channel这个概念
+input -> [channel] -> output

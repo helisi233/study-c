@@ -1,3 +1,0 @@
-"D:\soft\ide\gongju\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\main.c.dir/objects.a
-D:\soft\ide\anzhuangbao\msys64\mingw64\bin\ar.exe cr CMakeFiles\main.c.dir/objects.a @CMakeFiles\main.c.dir\objects1.rsp
-D:\soft\ide\anzhuangbao\msys64\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\main.c.dir/objects.a -Wl,--no-whole-archive  -o main.c.exe -Wl,--out-implib,libmain.c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\main.c.dir\linklibs.rsp

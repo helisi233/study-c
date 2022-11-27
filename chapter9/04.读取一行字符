@@ -1,0 +1,20 @@
+函数原型
+    从文件流读取字符到缓冲区里面  如果读取到了换行符就停止 没有读取到换行符就读取到size-1个字符停止
+    char buffer[1024]
+    gets_s(buffer, 1024)
+    fgets(buffer, 1024, stdin)
+
+    从缓冲区里面往目标流里面写
+    puts(buffer)
+    fputs(buffer, stdout)
+
+返回值
+    gets_s读取成功返回buffer
+    读取失败返回NULL
+
+异常
+    gets_s(buffer, size);   当输入字符长度超过buffer长度时会报错
+    fgets(buffer, size, *stream);    超过buffer长度不会报错 会按照buffer长度分段输出
+
+以上函数只适用于文本文件的读写
+gets不是安全的函数 使用gets_s或者fgets代替

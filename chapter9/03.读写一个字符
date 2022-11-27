@@ -1,0 +1,19 @@
+函数原型
+    getchar() 从stdin读取一个字符
+    getc(FILE *stream) 从指定流里面读取一个字符
+    fgetc(FILE *stream) 从指定流里面读取一个字符
+    getchar() <===> getc(stdin)
+
+    putchar(int ch) 往stdout里写入一个字符
+    putc(int ch, FILE *stream) 往指定的流里面写入一个字符
+    fputc(int ch, FILE *stream) 往指定的流里面写入一个字符
+    putchar(c) <===> fputc(c, stdout)
+
+返回值
+    字符的整数值（字符集对应）
+    流结束时会返回一个EOF特殊标记 EOF是宏 不同的编译器实现不同
+
+读写一个字符的文件拷贝
+    参数、打开文件、读文件、写文件、未知错误
+    不需要考虑缓冲区问题
+    需要注意最后关闭文件操作

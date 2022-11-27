@@ -1,0 +1,12 @@
+Code08_serialization 序列化的基础实现
+
+size_t __cdecl fread(void * __restrict__ _DstBuf,size_t _ElementSize,size_t _Count,FILE * __restrict__ _File);
+size_t __cdecl fwrite(const void * __restrict__ _Str,size_t _Size,size_t _Count,FILE * __restrict__ _File);
+    缓冲区的类型是void* 不仅仅可以使用char[] 也可以使用结构体读写文件
+
+当前程序的问题
+    序列化的字段都是int类型 如果使用其他类型还要考虑内存对齐的问题
+    不支持添加结构体的字段
+    不能实现跨平台兼容
+
+生产环境还是需要使用json类型实现序列化

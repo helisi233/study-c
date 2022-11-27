@@ -56,27 +56,27 @@ include CMakeFiles/study-c.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/study-c.dir/flags.make
 
-CMakeFiles/study-c.dir/chapter5/05.lvalue_rvalue.c.obj: CMakeFiles/study-c.dir/flags.make
-CMakeFiles/study-c.dir/chapter5/05.lvalue_rvalue.c.obj: ../chapter5/05.lvalue_rvalue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\study-c\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/study-c.dir/chapter5/05.lvalue_rvalue.c.obj"
-	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\study-c.dir\chapter5\05.lvalue_rvalue.c.obj   -c D:\study-c\chapter5\05.lvalue_rvalue.c
+CMakeFiles/study-c.dir/chapter9/Code09.copy_file_3.c.obj: CMakeFiles/study-c.dir/flags.make
+CMakeFiles/study-c.dir/chapter9/Code09.copy_file_3.c.obj: ../chapter9/Code09.copy_file_3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\study-c\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/study-c.dir/chapter9/Code09.copy_file_3.c.obj"
+	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\study-c.dir\chapter9\Code09.copy_file_3.c.obj   -c D:\study-c\chapter9\Code09.copy_file_3.c
 
-CMakeFiles/study-c.dir/chapter5/05.lvalue_rvalue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/study-c.dir/chapter5/05.lvalue_rvalue.c.i"
-	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\study-c\chapter5\05.lvalue_rvalue.c > CMakeFiles\study-c.dir\chapter5\05.lvalue_rvalue.c.i
+CMakeFiles/study-c.dir/chapter9/Code09.copy_file_3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/study-c.dir/chapter9/Code09.copy_file_3.c.i"
+	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\study-c\chapter9\Code09.copy_file_3.c > CMakeFiles\study-c.dir\chapter9\Code09.copy_file_3.c.i
 
-CMakeFiles/study-c.dir/chapter5/05.lvalue_rvalue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/study-c.dir/chapter5/05.lvalue_rvalue.c.s"
-	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\study-c\chapter5\05.lvalue_rvalue.c -o CMakeFiles\study-c.dir\chapter5\05.lvalue_rvalue.c.s
+CMakeFiles/study-c.dir/chapter9/Code09.copy_file_3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/study-c.dir/chapter9/Code09.copy_file_3.c.s"
+	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\study-c\chapter9\Code09.copy_file_3.c -o CMakeFiles\study-c.dir\chapter9\Code09.copy_file_3.c.s
 
 # Object files for target study-c
 study__c_OBJECTS = \
-"CMakeFiles/study-c.dir/chapter5/05.lvalue_rvalue.c.obj"
+"CMakeFiles/study-c.dir/chapter9/Code09.copy_file_3.c.obj"
 
 # External object files for target study-c
 study__c_EXTERNAL_OBJECTS =
 
-study-c.exe: CMakeFiles/study-c.dir/chapter5/05.lvalue_rvalue.c.obj
+study-c.exe: CMakeFiles/study-c.dir/chapter9/Code09.copy_file_3.c.obj
 study-c.exe: CMakeFiles/study-c.dir/build.make
 study-c.exe: CMakeFiles/study-c.dir/linklibs.rsp
 study-c.exe: CMakeFiles/study-c.dir/objects1.rsp

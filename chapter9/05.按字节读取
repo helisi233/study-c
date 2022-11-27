@@ -1,0 +1,16 @@
+feof(stream)    判断当前是否从这个流里面读取完成
+ferror(stream)  判断当前是否从这个流里面读取异常
+
+函数原型
+    fread(buffer, sizeof(type), count, stream)
+    从stream流里面 读取count个type单位大小的字节 到buffer里面
+
+    fwrite(buffer, sizeof(type), count, stream)
+    向stream流里面写 buffer里面count个type单位大小的字节
+
+返回值
+    fread 读取到的字节数，读取错误的话返回值会小于count
+    fwrite 写入的字节数，写入错误的话返回值会小于count
+
+注意点
+    fread会尽可能的读取字符直到EOF 不会像按字符按行读写时回车就会有显示

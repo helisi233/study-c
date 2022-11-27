@@ -3,6 +3,9 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/chapter1/02.data_types_char.c" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chapter4/02.string.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter5/07.dynamic_memory.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter7/02.conversion.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter7/10.mbs_wcs.c" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
