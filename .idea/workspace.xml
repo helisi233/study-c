@@ -11,119 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="069f5924-b7d3-42ad-a2e3-5dd5cfa0aebc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/05.lvalue_rvalue.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/05.lvalue_rvalue.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/06.pointer_parameter_as_return_value.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/06.pointer_parameter_as_return_value.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/07.dynamic_memory.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/07.dynamic_memory.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/08.function_pointer.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/08.function_pointer.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/09.swap_values.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/09.swap_values.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/10.quick_sort.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/10.quick_sort.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/指针.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/指针.xmind" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/01.struct.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/01.struct.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/02.memory_align.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/02.memory_align.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/03.union.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/03.union.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/04.enum.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/04.enum.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/05.byte_order.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/05.byte_order.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/06.linked_list.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/06.linked_list.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/Lua中使用联合体的案例" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/Lua中使用联合体的案例" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/include/Print_Utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/include/Print_Utils.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/01.character_type.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/01.character_type.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/02.conversion.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/02.conversion.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/03.string_length.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/03.string_length.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/04.find_char_and_substring.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/04.find_char_and_substring.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/05.string_tokenize.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/05.string_tokenize.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/06.string_concat_copy.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/06.string_concat_copy.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/07.mem_op.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/07.mem_op.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/08.restrict.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/08.restrict.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/09.safe_function.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/09.safe_function.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/10.mbs_wcs.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/10.mbs_wcs.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/include/io_utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/include/io_utils.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/01.basic_time.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter8/01.basic_time.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/02.get_sys_time.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter8/02.get_sys_time.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/03.calendar.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter8/03.calendar.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/04.format_time.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter8/04.format_time.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/05.parse_time.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter8/05.parse_time.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/06.time_diff.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter8/06.time_diff.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/include/io_utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter8/include/io_utils.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/include/time_utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter8/include/time_utils.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter9/01.输入输出流" beforeDir="false" afterPath="$PROJECT_DIR$/chapter9/01.输入输出流" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter9/03.读写一个字符" beforeDir="false" afterPath="$PROJECT_DIR$/chapter9/03.读写一个字符" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter9/04.读取一行字符" beforeDir="false" afterPath="$PROJECT_DIR$/chapter9/04.读取一行字符" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter9/05.按字节读取" beforeDir="false" afterPath="$PROJECT_DIR$/chapter9/05.按字节读取" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter9/06.序列化和反序列化" beforeDir="false" afterPath="$PROJECT_DIR$/chapter9/06.序列化和反序列化" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter9/Code06.copy_file_2.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter9/Code06.copy_file_2.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter9/Code07.read_write_certain_bytes.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter9/Code07.read_write_certain_bytes.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter9/Code09.copy_file_3.c" beforeDir="false" afterPath="$PROJECT_DIR$/chapter9/Code09.copy_file_3.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter9/include/io_utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter9/include/io_utils.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter9/include/time_utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter9/include/time_utils.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.14.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.14.3/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.14.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.14.3/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/main.c.dir/C.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/main.c.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/main.c.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/main.c.dir/chapter1/01.data_type.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/main.c.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/main.c.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/main.c.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/main.c.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/main.c.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/main.c.dir/linklibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/main.c.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/main.c.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/main.c.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter1/01.data_type.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter1/02.data_types_char.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter1/04.variable.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter1/07.condition.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter1/08.loop.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter1/09.guess_number.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter2/01.function_basic.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter2/02.proto_type.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter2/03.variable_types_and_scope.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter2/04.varargs.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter2/05.recursion.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter2/06.hanoi.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter3/01.file_include.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter3/02.my_include_file.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter3/03.macro_function.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter3/04.conditional_macro.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter3/05.printlnf.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter3/src/factorial.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter4/03.array_parameter.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter4/04.2d_array.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter4/06.quick_sort.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter5/01.pointer_basic.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter5/04.pointer_operations.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study_c.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study_c.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study_c.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study_c.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study_c.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study_c.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study_c.dir/linklibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study_c.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study_c.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/study-c.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/study-c.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/study-c.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/study-c.exe" afterDir="false" />
-    </list>
+    <list default="true" id="069f5924-b7d3-42ad-a2e3-5dd5cfa0aebc" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug-mingw/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -147,15 +35,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter9/07.格式化输入输出">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/git提交代码">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../soft/ide/anzhuangbao/msys64/mingw64/include/stdio.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="17732">
               <caret line="682" column="17" selection-start-line="682" selection-start-column="17" selection-end-line="682" selection-end-column="17" />
             </state>
           </provider>
@@ -236,7 +133,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,12 +143,18 @@
             <path>
               <item name="study-c" type="b2602c69:ProjectViewProjectNode" />
               <item name="study-c" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-c" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-c" type="462c0819:PsiDirectoryNode" />
               <item name="chapter9" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,11 +234,12 @@
       <workItem from="1669416961238" duration="3141000" />
       <workItem from="1669439122466" duration="4134000" />
       <workItem from="1669503551735" duration="9884000" />
+      <workItem from="1669556291372" duration="473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155999000" />
+    <option name="totallyTimeSpent" value="156472000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,9 +251,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="171" y="26" width="1172" height="784" extended-state="0" />
+    <frame x="17" y="22" width="1172" height="784" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21005386" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21364452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -362,7 +265,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32361963" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.56288344" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.56202143" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3297546" />
@@ -457,16 +360,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter6/04.enum.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-          <folding>
-            <element signature="e#40#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter6/05.byte_order.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -833,13 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../soft/ide/anzhuangbao/msys64/mingw64/include/stdio.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="682" column="17" selection-start-line="682" selection-start-column="17" selection-end-line="682" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter9/Code06.copy_file_2.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-598">
@@ -881,8 +767,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../soft/ide/anzhuangbao/msys64/mingw64/include/stdio.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17732">
+          <caret line="682" column="17" selection-start-line="682" selection-start-column="17" selection-end-line="682" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapter9/07.格式化输入输出">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git提交代码">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
