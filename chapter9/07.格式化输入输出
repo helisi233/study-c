@@ -1,0 +1,24 @@
+接收变长参数
+    int scanf(const char *format, ...)
+    int fscanf(FILE *stream, const char *format, ...)
+    int sscanf(const char *buffer, const char *format, ...)
+
+    int printf(const char *format, ...)
+    int fprintf(FILE *stream, const char *format, ...)
+    int sprintf(char *buffer, const char *format, ...)
+    int snprintf(char *buffer, int bufsz, const char *format, ...)
+
+
+接收变长参数的类型
+    int vscanf(const char *format, va_list vlist)
+    int vfscanf(FILE *stream, const char *format, va_list vlist)
+    int vsscanf(const char *buffer, const char *format, va_list vlist)
+
+    int printf(const char *format, va_list vlist)
+    int fprintf(FILE *stream, const char *format, va_list vlist)
+    int sprintf(char *buffer, const char *format, va_list vlist)
+    int snprintf(char *buffer, size_t bufsz, const char *format, va_list vlist)
+
+format格式化符
+    https://zh.cppreference.com/w/c/io/fscanf
+    https://zh.cppreference.com/w/c/io/fprintf

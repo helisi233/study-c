@@ -1,0 +1,21 @@
+FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File)
+将标准输出流关闭 不在输出到控制台 输出到filename mode模式 通过标准库无法重新输出到控制台
+
+posix标准
+    int dup(int fildes) 生成一个新的文件描述符
+    int dup2(int fildes, int fildes2) 让fildes2指向fildes1 复制操作
+
+    int fileno(FILE *stream)
+    int close(int fildes)
+
+FILE打开后会有一个文件描述符指向这个文件 fd0 -> FILE
+
+int fd1 = dup(fd0) ==> fd0 -> FILE <- fd1
+
+fd0 -> FILE0                        fd0 -> FILE0
+             ==> dup2(fd0, fd1) ==>                 file1被关闭
+fd1 -> FILE1                        fd1 -> FILE0
+
+重点
+    每次重定向的时候都要先清空缓冲流
+    fflush()

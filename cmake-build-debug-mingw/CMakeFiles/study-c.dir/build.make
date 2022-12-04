@@ -56,32 +56,47 @@ include CMakeFiles/study-c.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/study-c.dir/flags.make
 
-CMakeFiles/study-c.dir/chapter9/Code09.copy_file_3.c.obj: CMakeFiles/study-c.dir/flags.make
-CMakeFiles/study-c.dir/chapter9/Code09.copy_file_3.c.obj: ../chapter9/Code09.copy_file_3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\study-c\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/study-c.dir/chapter9/Code09.copy_file_3.c.obj"
-	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\study-c.dir\chapter9\Code09.copy_file_3.c.obj   -c D:\study-c\chapter9\Code09.copy_file_3.c
+CMakeFiles/study-c.dir/chapter10/tinycthread/tinycthread.c.obj: CMakeFiles/study-c.dir/flags.make
+CMakeFiles/study-c.dir/chapter10/tinycthread/tinycthread.c.obj: ../chapter10/tinycthread/tinycthread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\study-c\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/study-c.dir/chapter10/tinycthread/tinycthread.c.obj"
+	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\study-c.dir\chapter10\tinycthread\tinycthread.c.obj   -c D:\study-c\chapter10\tinycthread\tinycthread.c
 
-CMakeFiles/study-c.dir/chapter9/Code09.copy_file_3.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/study-c.dir/chapter9/Code09.copy_file_3.c.i"
-	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\study-c\chapter9\Code09.copy_file_3.c > CMakeFiles\study-c.dir\chapter9\Code09.copy_file_3.c.i
+CMakeFiles/study-c.dir/chapter10/tinycthread/tinycthread.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/study-c.dir/chapter10/tinycthread/tinycthread.c.i"
+	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\study-c\chapter10\tinycthread\tinycthread.c > CMakeFiles\study-c.dir\chapter10\tinycthread\tinycthread.c.i
 
-CMakeFiles/study-c.dir/chapter9/Code09.copy_file_3.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/study-c.dir/chapter9/Code09.copy_file_3.c.s"
-	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\study-c\chapter9\Code09.copy_file_3.c -o CMakeFiles\study-c.dir\chapter9\Code09.copy_file_3.c.s
+CMakeFiles/study-c.dir/chapter10/tinycthread/tinycthread.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/study-c.dir/chapter10/tinycthread/tinycthread.c.s"
+	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\study-c\chapter10\tinycthread\tinycthread.c -o CMakeFiles\study-c.dir\chapter10\tinycthread\tinycthread.c.s
+
+CMakeFiles/study-c.dir/chapter10/Code09.callback.c.obj: CMakeFiles/study-c.dir/flags.make
+CMakeFiles/study-c.dir/chapter10/Code09.callback.c.obj: ../chapter10/Code09.callback.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\study-c\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/study-c.dir/chapter10/Code09.callback.c.obj"
+	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\study-c.dir\chapter10\Code09.callback.c.obj   -c D:\study-c\chapter10\Code09.callback.c
+
+CMakeFiles/study-c.dir/chapter10/Code09.callback.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/study-c.dir/chapter10/Code09.callback.c.i"
+	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\study-c\chapter10\Code09.callback.c > CMakeFiles\study-c.dir\chapter10\Code09.callback.c.i
+
+CMakeFiles/study-c.dir/chapter10/Code09.callback.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/study-c.dir/chapter10/Code09.callback.c.s"
+	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\study-c\chapter10\Code09.callback.c -o CMakeFiles\study-c.dir\chapter10\Code09.callback.c.s
 
 # Object files for target study-c
 study__c_OBJECTS = \
-"CMakeFiles/study-c.dir/chapter9/Code09.copy_file_3.c.obj"
+"CMakeFiles/study-c.dir/chapter10/tinycthread/tinycthread.c.obj" \
+"CMakeFiles/study-c.dir/chapter10/Code09.callback.c.obj"
 
 # External object files for target study-c
 study__c_EXTERNAL_OBJECTS =
 
-study-c.exe: CMakeFiles/study-c.dir/chapter9/Code09.copy_file_3.c.obj
+study-c.exe: CMakeFiles/study-c.dir/chapter10/tinycthread/tinycthread.c.obj
+study-c.exe: CMakeFiles/study-c.dir/chapter10/Code09.callback.c.obj
 study-c.exe: CMakeFiles/study-c.dir/build.make
 study-c.exe: CMakeFiles/study-c.dir/linklibs.rsp
 study-c.exe: CMakeFiles/study-c.dir/objects1.rsp
 study-c.exe: CMakeFiles/study-c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\study-c\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable study-c.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\study-c\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable study-c.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\study-c.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

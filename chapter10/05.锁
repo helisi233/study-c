@@ -1,0 +1,19 @@
+c标准没有定义锁的实现
+gcc中定义mtx_t结构体实现锁
+
+API
+    创建锁 mtx_init()
+    删除锁 mtx_destroy()
+    加锁  mtx_lock()  加锁成功就返回 加锁失败就阻塞 一直阻塞
+          mtx_timedlock()   加锁成功就返回 加锁失败就阻塞 超过设置的时间就不阻塞
+          mtx_trylock() 尝试加锁
+    解锁  mtx_unlock()
+
+锁类型
+    mtx_plain   普通锁
+    mtx_timed   超时锁
+    mtx_recursive   可重入锁
+        用在递归函数中包含加锁操作的场景
+        如果使用普通锁 再次调用lock时会死锁
+
+原子操作比锁要快

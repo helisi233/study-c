@@ -1,0 +1,13 @@
+volatile并非为并发程序设计
+volatile的目的是禁止编译器优化读写操作
+volatile不会保证访问的原子性
+与其他语言(例如Java)的volatile不要混淆 Java的volatile能保证可见性
+MSVC中的volatile赋予了可见性 但编写程序时不能依赖这个特性
+
+使用volatile修饰的变量无论读写都是一个可观察到的
+
+volatile修饰前
+    x = 2; x += 3; ==> x = 5;
+
+volatile修饰后
+    x = 2;

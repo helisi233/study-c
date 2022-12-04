@@ -82,13 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/study-c/chapter9/Code09.copy_file_3.c">
+		<Unit filename="D:/study-c/chapter10/Code09.callback.c">
 			<Option target="study-c"/>
 		</Unit>
-		<Unit filename="D:/study-c/chapter9/include/io_utils.h">
+		<Unit filename="D:/study-c/chapter10/include/io_utils.h">
 			<Option target="study-c"/>
 		</Unit>
-		<Unit filename="D:/study-c/chapter9/include/time_utils.h">
+		<Unit filename="D:/study-c/chapter10/tinycthread/include/tinycthread.h">
+			<Option target="study-c"/>
+		</Unit>
+		<Unit filename="D:/study-c/chapter10/tinycthread/tinycthread.c">
 			<Option target="study-c"/>
 		</Unit>
 		<Unit filename="D:/study-c/CMakeLists.txt">

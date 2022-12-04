@@ -1,0 +1,25 @@
+atomic_int是int的原子类型
+
+atomic_int的自增自减都是原子操作
+    类似数据库的事务 自增的三步操作会视为一个操作
+
+atomic_store(PTR, VAL)  指针赋值的原子操作
+atomic_load(PTR)    指针取值的原子操作
+atomic_compare_exchange_strong(PTR, VAL, DES)   VAL和PTR里面的值对比 相等的时候用DES替换
+atomic_compare_exchange_week(PTR, VAL, DES) VAL和PTR里面的值对比 相等的时候用DES替换
+    可能出现虚假的失败 实际上VAL和PTR是相等的 但是返回false
+    重试几次就可以正常替换
+    week的性能比strong好 但保证性差
+
+原子类型的实现
+    CPU的原子指令
+    锁
+    atomic_is_lock_free(原子)
+        true 原子指令实现
+        false   锁实现
+
+atomic_flag标志位
+    类似boolean
+    操作方式
+        atomic_flag_clear   清除
+        atomic_flag_test_and_set    设置

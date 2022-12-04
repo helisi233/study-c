@@ -1,0 +1,14 @@
+threadlocal
+    将变量限制在线程内
+
+_Thread_local 线程内部的变量 内存空间
+
+之前操作的变量都是进程级别的 所以存在访问共享资源的问题
+
+声明线程私有内存空间key
+    tss_set(key, val)
+        用一个key和真正操作的内存绑定
+    tss_create(tss_t *key, tss_dtor_t dtor)
+        dtor销毁内存
+    tss_delete(tss_t key)
+        销毁key之前要保证其他线程不在使用这个key 并且完成了内存清理工作
