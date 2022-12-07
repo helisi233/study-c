@@ -122,59 +122,32 @@ study-c/fast:
 	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/build
 .PHONY : study-c/fast
 
-chapter10/Code09.callback.obj: chapter10/Code09.callback.c.obj
+chapter11/Code04.library_with_cmake.obj: chapter11/Code04.library_with_cmake.c.obj
 
-.PHONY : chapter10/Code09.callback.obj
-
-# target to build an object file
-chapter10/Code09.callback.c.obj:
-	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter10/Code09.callback.c.obj
-.PHONY : chapter10/Code09.callback.c.obj
-
-chapter10/Code09.callback.i: chapter10/Code09.callback.c.i
-
-.PHONY : chapter10/Code09.callback.i
-
-# target to preprocess a source file
-chapter10/Code09.callback.c.i:
-	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter10/Code09.callback.c.i
-.PHONY : chapter10/Code09.callback.c.i
-
-chapter10/Code09.callback.s: chapter10/Code09.callback.c.s
-
-.PHONY : chapter10/Code09.callback.s
-
-# target to generate assembly for a file
-chapter10/Code09.callback.c.s:
-	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter10/Code09.callback.c.s
-.PHONY : chapter10/Code09.callback.c.s
-
-chapter10/tinycthread/tinycthread.obj: chapter10/tinycthread/tinycthread.c.obj
-
-.PHONY : chapter10/tinycthread/tinycthread.obj
+.PHONY : chapter11/Code04.library_with_cmake.obj
 
 # target to build an object file
-chapter10/tinycthread/tinycthread.c.obj:
-	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter10/tinycthread/tinycthread.c.obj
-.PHONY : chapter10/tinycthread/tinycthread.c.obj
+chapter11/Code04.library_with_cmake.c.obj:
+	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter11/Code04.library_with_cmake.c.obj
+.PHONY : chapter11/Code04.library_with_cmake.c.obj
 
-chapter10/tinycthread/tinycthread.i: chapter10/tinycthread/tinycthread.c.i
+chapter11/Code04.library_with_cmake.i: chapter11/Code04.library_with_cmake.c.i
 
-.PHONY : chapter10/tinycthread/tinycthread.i
+.PHONY : chapter11/Code04.library_with_cmake.i
 
 # target to preprocess a source file
-chapter10/tinycthread/tinycthread.c.i:
-	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter10/tinycthread/tinycthread.c.i
-.PHONY : chapter10/tinycthread/tinycthread.c.i
+chapter11/Code04.library_with_cmake.c.i:
+	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter11/Code04.library_with_cmake.c.i
+.PHONY : chapter11/Code04.library_with_cmake.c.i
 
-chapter10/tinycthread/tinycthread.s: chapter10/tinycthread/tinycthread.c.s
+chapter11/Code04.library_with_cmake.s: chapter11/Code04.library_with_cmake.c.s
 
-.PHONY : chapter10/tinycthread/tinycthread.s
+.PHONY : chapter11/Code04.library_with_cmake.s
 
 # target to generate assembly for a file
-chapter10/tinycthread/tinycthread.c.s:
-	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter10/tinycthread/tinycthread.c.s
-.PHONY : chapter10/tinycthread/tinycthread.c.s
+chapter11/Code04.library_with_cmake.c.s:
+	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter11/Code04.library_with_cmake.c.s
+.PHONY : chapter11/Code04.library_with_cmake.c.s
 
 # Help Target
 help:
@@ -185,12 +158,9 @@ help:
 	@echo ... study-c
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... chapter10/Code09.callback.obj
-	@echo ... chapter10/Code09.callback.i
-	@echo ... chapter10/Code09.callback.s
-	@echo ... chapter10/tinycthread/tinycthread.obj
-	@echo ... chapter10/tinycthread/tinycthread.i
-	@echo ... chapter10/tinycthread/tinycthread.s
+	@echo ... chapter11/Code04.library_with_cmake.obj
+	@echo ... chapter11/Code04.library_with_cmake.i
+	@echo ... chapter11/Code04.library_with_cmake.s
 .PHONY : help
 
 

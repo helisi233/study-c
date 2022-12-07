@@ -82,16 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/study-c/chapter10/Code09.callback.c">
-			<Option target="study-c"/>
-		</Unit>
 		<Unit filename="D:/study-c/chapter10/include/io_utils.h">
 			<Option target="study-c"/>
 		</Unit>
-		<Unit filename="D:/study-c/chapter10/tinycthread/include/tinycthread.h">
+		<Unit filename="D:/study-c/chapter11/Code04.library_with_cmake.c">
 			<Option target="study-c"/>
 		</Unit>
-		<Unit filename="D:/study-c/chapter10/tinycthread/tinycthread.c">
+		<Unit filename="D:/study-c/chapter11/mathutils/include/factorial.h">
+			<Option target="study-c"/>
+		</Unit>
+		<Unit filename="D:/study-c/chapter11/mathutils/include/fibonacci.h">
 			<Option target="study-c"/>
 		</Unit>
 		<Unit filename="D:/study-c/CMakeLists.txt">

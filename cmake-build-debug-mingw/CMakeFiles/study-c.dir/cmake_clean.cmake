@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/study-c.dir/chapter10/tinycthread/tinycthread.c.obj"
-  "CMakeFiles/study-c.dir/chapter10/Code09.callback.c.obj"
+  "CMakeFiles/study-c.dir/chapter11/Code04.library_with_cmake.c.obj"
   "study-c.pdb"
   "study-c.exe"
   "study-c.exe.manifest"

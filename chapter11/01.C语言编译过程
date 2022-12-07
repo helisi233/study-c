@@ -1,0 +1,14 @@
+源代码 -> [预处理器] -> 宏替换后的源代码 -> [编译器] -> 中间文件 -> [链接器] -> 可执行程序
+
+编译命令
+    预处理指令
+        gcc -E Code01.hello_world.c -o Code01.hello_world.i
+        .i时宏展开的文件 可以运行
+    编译指令
+        gcc -S Code01.hello_world.i -o Code01.hello_world.s
+        生成中间文件
+    汇编指令
+        gcc -c Code01.hello_world.s -o Code01.hello_world.o
+        生成目标文件
+    链接指令
+        gcc -v Code01.hello_world.o -o Code01.hello_world

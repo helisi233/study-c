@@ -1,0 +1,51 @@
+静态行为
+    程序编译阶段发生的行为
+    在编译阶段确定外部符号位置 并将依赖的符号编译到一起 形成最终的可执行文件
+    不能共享
+
+    编译流程
+        生成目标文件
+            gcc -c factorial.c fibonacci.c
+        安装ar
+            pacman -S mingw-w64-x86_64-binutils
+        打包
+            ar rcs libmathutils.a factorial.o fibonacci.o
+        查看静态链接库的文件
+            ar t libmathutils.a
+        将静态链接库和文件一起编译
+            gcc Code02.static_library.c mathutils/libmathutils.a -o Code02.static_library
+
+    CMake编译静态链接库
+
+动态行为
+    程序运行阶段发生的行为
+    在运行阶段根据动态链接库 根据加载确定外部符号的地址 动态链接库无法确定运
+    行时的地址只能基于全局偏移表给出相对位置 全局偏移表只能在运行时动态加载后
+    才能确定
+    linux上动态链接库的后缀so
+    共享
+    不同的程序使用同一个库
+
+    查看可执行程序依赖那些程序
+        ldd Code01.hello_world
+    编译流程
+        windows环境 还需要一个导入库
+            gcc -shared -fPIC -wl,--out-implib,libmathutils.a
+            factorial.c fibonacci.c -o libmathutils.dll
+        linux环境
+            gcc -shared -fPIC factorial.c fibonacci.c -o libmathutils.so
+        生成可执行文件
+            gcc Code03.shared_library.c -Lmathutils -lmathutils -o Code03.shared_library
+            -L 指定动态链接库文件路径
+            -l 动态链接库名 libmathutils.dll 只取lib后面的
+        查看文件格式
+            file Code03.shared_library
+        windows加载动态链接库的逻辑
+            现在当前文件中查找动态链接库 没有找到去系统path路径下查找
+        linux加载动态链接库
+            指定ldlibrarypath查找动态链接库
+        运行
+            cd mathutils
+            ../Code03.shared_library
+    查看动态链接库的符号
+        objdump -t libmathutils.dll
