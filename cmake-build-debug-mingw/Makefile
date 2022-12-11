@@ -149,6 +149,60 @@ chapter11/Code04.library_with_cmake.c.s:
 	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter11/Code04.library_with_cmake.c.s
 .PHONY : chapter11/Code04.library_with_cmake.c.s
 
+chapter11_2/factorial/factorial.obj: chapter11_2/factorial/factorial.c.obj
+
+.PHONY : chapter11_2/factorial/factorial.obj
+
+# target to build an object file
+chapter11_2/factorial/factorial.c.obj:
+	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter11_2/factorial/factorial.c.obj
+.PHONY : chapter11_2/factorial/factorial.c.obj
+
+chapter11_2/factorial/factorial.i: chapter11_2/factorial/factorial.c.i
+
+.PHONY : chapter11_2/factorial/factorial.i
+
+# target to preprocess a source file
+chapter11_2/factorial/factorial.c.i:
+	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter11_2/factorial/factorial.c.i
+.PHONY : chapter11_2/factorial/factorial.c.i
+
+chapter11_2/factorial/factorial.s: chapter11_2/factorial/factorial.c.s
+
+.PHONY : chapter11_2/factorial/factorial.s
+
+# target to generate assembly for a file
+chapter11_2/factorial/factorial.c.s:
+	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter11_2/factorial/factorial.c.s
+.PHONY : chapter11_2/factorial/factorial.c.s
+
+chapter11_2/fibonacci/fibonacci.obj: chapter11_2/fibonacci/fibonacci.c.obj
+
+.PHONY : chapter11_2/fibonacci/fibonacci.obj
+
+# target to build an object file
+chapter11_2/fibonacci/fibonacci.c.obj:
+	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter11_2/fibonacci/fibonacci.c.obj
+.PHONY : chapter11_2/fibonacci/fibonacci.c.obj
+
+chapter11_2/fibonacci/fibonacci.i: chapter11_2/fibonacci/fibonacci.c.i
+
+.PHONY : chapter11_2/fibonacci/fibonacci.i
+
+# target to preprocess a source file
+chapter11_2/fibonacci/fibonacci.c.i:
+	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter11_2/fibonacci/fibonacci.c.i
+.PHONY : chapter11_2/fibonacci/fibonacci.c.i
+
+chapter11_2/fibonacci/fibonacci.s: chapter11_2/fibonacci/fibonacci.c.s
+
+.PHONY : chapter11_2/fibonacci/fibonacci.s
+
+# target to generate assembly for a file
+chapter11_2/fibonacci/fibonacci.c.s:
+	$(MAKE) -f CMakeFiles\study-c.dir\build.make CMakeFiles/study-c.dir/chapter11_2/fibonacci/fibonacci.c.s
+.PHONY : chapter11_2/fibonacci/fibonacci.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +215,12 @@ help:
 	@echo ... chapter11/Code04.library_with_cmake.obj
 	@echo ... chapter11/Code04.library_with_cmake.i
 	@echo ... chapter11/Code04.library_with_cmake.s
+	@echo ... chapter11_2/factorial/factorial.obj
+	@echo ... chapter11_2/factorial/factorial.i
+	@echo ... chapter11_2/factorial/factorial.s
+	@echo ... chapter11_2/fibonacci/fibonacci.obj
+	@echo ... chapter11_2/fibonacci/fibonacci.i
+	@echo ... chapter11_2/fibonacci/fibonacci.s
 .PHONY : help
 
 

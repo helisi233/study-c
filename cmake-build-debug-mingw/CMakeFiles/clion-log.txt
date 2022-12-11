@@ -1,4 +1,7 @@
 "D:\soft\ide\gongju\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\study-c
 -- Configuring done
--- Generating done
+CMake Error at CMakeLists.txt:7 (add_executable):
+  No SOURCES given to target: study-c
+
+
 -- Build files have been written to: D:/study-c/cmake-build-debug-mingw

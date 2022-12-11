@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/study-c.dir/chapter11/Code04.library_with_cmake.c.obj"
+  "CMakeFiles/study-c.dir/chapter11_2/factorial/factorial.c.obj"
+  "CMakeFiles/study-c.dir/chapter11_2/fibonacci/fibonacci.c.obj"
   "study-c.pdb"
   "study-c.exe"
   "study-c.exe.manifest"

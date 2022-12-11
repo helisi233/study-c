@@ -12,21 +12,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="069f5924-b7d3-42ad-a2e3-5dd5cfa0aebc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter11/01.C语言编译过程" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/02.静态链接和动态链接" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/03.使用CMake完成库的编译链接" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/Code01.hello_world.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/Code02.static_library.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/Code03.shared_library.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/Code04.library_with_cmake.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/include/io_utils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/mathutils/factorial.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/mathutils/fibonacci.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/mathutils/include/factorial.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/mathutils/include/fibonacci.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/03.cpp调用c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11_2/factorial/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11_2/factorial/factorial.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11_2/factorial/factorial.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11_2/fibonacci/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11_2/fibonacci/fibonacci.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11_2/fibonacci/fibonacci.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/03.使用CMake完成库的编译链接" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/04.java调用c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/study-c.dir/build.make" afterDir="false" />
@@ -54,22 +51,40 @@
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
-              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter11/Code04.library_with_cmake.c">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/chapter11/03.cpp调用c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+              <folding>
+                <element signature="e#262#264#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter11/03.使用CMake完成库的编译链接">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/chapter11/04.java调用c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,15 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapter9/07.read_write_certain_bytes.c" />
-        <option value="$PROJECT_DIR$/chapter9/Code07.read_write_certain_bytes.c" />
-        <option value="$PROJECT_DIR$/chapter9/Code08_serialization.c" />
-        <option value="$PROJECT_DIR$/chapter9/06.序列化和反序列化" />
-        <option value="$PROJECT_DIR$/chapter9/05.按字节读取" />
-        <option value="$PROJECT_DIR$/chapter9/Code09.copy_file_3.c" />
-        <option value="$PROJECT_DIR$/chapter9/07.格式化输入输出" />
-        <option value="$PROJECT_DIR$/chapter9/Code10_redirect_stdout.c" />
-        <option value="$PROJECT_DIR$/chapter9/08.重定向标准输入输出流" />
         <option value="$PROJECT_DIR$/chapter9/test.c" />
         <option value="$PROJECT_DIR$/chapter9/Code11.count_characters.c" />
         <option value="$PROJECT_DIR$/chapter9/include/io_utils.h" />
@@ -127,16 +133,25 @@
         <option value="$PROJECT_DIR$/chapter11/Code02.static_library.cpp" />
         <option value="$PROJECT_DIR$/chapter11/Code03.shared_library.c" />
         <option value="$PROJECT_DIR$/chapter11/02.静态链接和动态链接" />
+        <option value="$PROJECT_DIR$/chapter11_2/factorial/factorial.h" />
+        <option value="$PROJECT_DIR$/chapter11_2/fibonacci/fibonacci.h" />
+        <option value="$PROJECT_DIR$/chapter11_2/fibonacci/fibonacci.c" />
+        <option value="$PROJECT_DIR$/chapter11_2/factorial/factorial.c" />
+        <option value="$PROJECT_DIR$/chapter11_2/fibonacci/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/chapter11_2/factorial/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/chapter11/03.使用Conan管理依赖" />
+        <option value="$PROJECT_DIR$/chapter11/03.cpp调用c" />
+        <option value="$PROJECT_DIR$/chapter11/04.java调用c" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="353" />
-    <option name="y" value="186" />
+    <option name="x" value="415" />
+    <option name="y" value="658" />
     <option name="width" value="1465" />
-    <option name="height" value="984" />
+    <option name="height" value="985" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -255,12 +270,13 @@
       <workItem from="1670113895249" duration="17649000" />
       <workItem from="1670175682304" duration="1215000" />
       <workItem from="1670284445066" duration="2293000" />
-      <workItem from="1670429924750" duration="2043000" />
+      <workItem from="1670429924750" duration="5139000" />
+      <workItem from="1670709097063" duration="3071000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200083000" />
+    <option name="totallyTimeSpent" value="206250000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -272,7 +288,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="283" y="149" width="1172" height="787" extended-state="1" />
+    <frame x="259" y="574" width="1172" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.21364452" />
@@ -287,10 +303,10 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.39263803" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.55981594" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.55877864" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.3297546" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.3292683" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -382,57 +398,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../soft/ide/anzhuangbao/msys64/mingw64/include/stdio.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="610" column="14" selection-start-line="610" selection-start-column="14" selection-end-line="610" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter9/08.重定向标准输入输出流">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter9/test.c" />
-    <entry file="file://$PROJECT_DIR$/chapter9/Code11.count_characters.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1352">
-          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
-          <folding>
-            <element signature="e#42#60#0" expanded="true" />
-            <element signature="e#540#571#0" expanded="true" />
-            <element signature="e#780#795#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter9/include/io_utils.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter9/Code12.position.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-          <folding>
-            <element signature="e#42#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../soft/ide/anzhuangbao/msys64/mingw64/include/_mingw_stat64.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="51" column="4" lean-forward="true" selection-start-line="39" selection-start-column="2" selection-end-line="51" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter9/Code13.other_operation.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -657,14 +622,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter11/Code01.hello_world.i">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1248" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter11/Code01.hello_world.s">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11/Code01.hello_world.i" />
+    <entry file="file://$PROJECT_DIR$/chapter11/Code01.hello_world.s" />
     <entry file="file://$PROJECT_DIR$/chapter11/Code01.hello_world.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -674,31 +633,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter11/03.动态链接" />
     <entry file="file://$PROJECT_DIR$/chapter11/mathutils/factorial.cpp" />
-    <entry file="file://$PROJECT_DIR$/chapter11/mathutils/include/factorial.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter11/mathutils/include/fibonacci.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter11/mathutils/fibonacci.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter11/mathutils/factorial.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -736,18 +674,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/chapter11/mathutils/include/factorial.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        <state relative-caret-position="182">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11/mathutils/include/fibonacci.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter11/Code04.library_with_cmake.c">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter11/03.使用CMake完成库的编译链接">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/chapter11_2/fibonacci/fibonacci.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11_2/factorial/factorial.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="38" selection-start-line="7" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11_2/factorial/factorial.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11/mathutils/factorial.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11_2/fibonacci/fibonacci.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="38" selection-start-line="7" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11_2/fibonacci/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11_2/factorial/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11/03.cpp调用c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="e#262#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11/04.java调用c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

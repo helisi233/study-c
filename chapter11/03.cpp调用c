@@ -1,0 +1,19 @@
+cpp不能直接调用c函数 因为cpp和c对外部符号的标记不同
+
+解决
+    修改声明函数
+        factorial.h
+        extern "C" unsigned int Factorial(unsigned int n);
+    为了提高兼容性最好的声明方式
+        #ifdef __cplusplus
+        extern "C" {
+        #endif
+            需要声明的函数
+        #ifdef __cplusplus
+        };
+        #endif
+
+        如果被cpp调用 会加上extern "C"
+        不影响C调用
+    从目标文件中解释符号
+        c++filt.exe 符号

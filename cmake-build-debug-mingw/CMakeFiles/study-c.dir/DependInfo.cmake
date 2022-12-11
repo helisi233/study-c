@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "D:/study-c/chapter11/Code04.library_with_cmake.c" "D:/study-c/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter11/Code04.library_with_cmake.c.obj"
+  "D:/study-c/chapter11_2/factorial/factorial.c" "D:/study-c/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter11_2/factorial/factorial.c.obj"
+  "D:/study-c/chapter11_2/fibonacci/fibonacci.c" "D:/study-c/cmake-build-debug-mingw/CMakeFiles/study-c.dir/chapter11_2/fibonacci/fibonacci.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

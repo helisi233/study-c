@@ -1,0 +1,58 @@
+Java代码
+    public class JniMain {
+        static {
+            System.loadLibrary("07.call_from_java");
+        }
+        public static native int fibonacci(int num);
+        public static void main(String[] args) {
+            System.out.println(fibonacci(5));
+        }
+    }
+流程
+    编译java代码
+        javac JniMain.java -> JniMain.class
+    生成头文件
+        javah com.helisi.jni.JniMain
+    修改头文件
+        #include <jni.h>
+        #ifdef __cplusplus
+        extern "C" {
+        #endif
+        JNIEXPORT jint JNICALL Java_com_helisi_jni_JniMain_fibonacci
+            (JNIEnv *, jclass, jint);
+        #ifdef __cplusplus
+        }
+        #endif
+    修改函数实现代码
+        #include "fibonacci.h"
+        unsigned int Fibonacci(unsigned int n) {
+            if(n == 0 || n == 1) {
+                return 1;
+            }else {
+                return Fibonacci(n-1) + Fibonacci(n-2);
+            }
+        }
+        JNIEXPORT jint JNICALL Java_com_helisi_jni_JniMain_fibonacci
+            (JNIEnv *env, jclass cls, jint num) {
+            return Fibonacci(num);
+        }
+    运行
+        java -D"java.library.path"="." com.helisi.jni.JniMain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

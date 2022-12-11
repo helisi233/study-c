@@ -94,6 +94,18 @@
 		<Unit filename="D:/study-c/chapter11/mathutils/include/fibonacci.h">
 			<Option target="study-c"/>
 		</Unit>
+		<Unit filename="D:/study-c/chapter11_2/factorial/factorial.c">
+			<Option target="study-c"/>
+		</Unit>
+		<Unit filename="D:/study-c/chapter11_2/factorial/factorial.h">
+			<Option target="study-c"/>
+		</Unit>
+		<Unit filename="D:/study-c/chapter11_2/fibonacci/fibonacci.c">
+			<Option target="study-c"/>
+		</Unit>
+		<Unit filename="D:/study-c/chapter11_2/fibonacci/fibonacci.h">
+			<Option target="study-c"/>
+		</Unit>
 		<Unit filename="D:/study-c/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
